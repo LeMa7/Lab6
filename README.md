@@ -17,6 +17,7 @@ enum Days { Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday }
 }
 
 6.ICloneable нужен для клонирования объектов. class Person : ICloneable { public string Name { get; set; } public int Age { get; set; } public object Clone() { return new Person { Name = this.Name, Age = this.Age }; } }
+
 7.полиморфизм — это способность обьекта использовать методы производного класса, который не существует на момент создания базового. Основные разновидности полиморфизма Ad hoc полиморфизм Параметрический полиморфизм Полиморфизм подтипов Классы типов Обобщённые алгебраические типы данных Политипизм
 
 8.Для того что бы могли переопределить их в классах наследниках. И таким образом использовать полиморфизм.
